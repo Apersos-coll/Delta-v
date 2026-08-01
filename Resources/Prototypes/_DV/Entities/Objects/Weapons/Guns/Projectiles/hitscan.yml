@@ -151,18 +151,18 @@
   components:
   - type: HitscanBasicVisuals
     muzzleFlash:
-      sprite: _DV/Objects/Weapons/Guns/Projectiles/projectiles.rsi
-      state: muzzle_laser
+      sprite: _DV/Objects/Weapons/Guns/Projectiles/unstable_rad_projectile.rsi
+      state: unstable_muzzle_flash
     travelFlash:
-      sprite: _DV/Objects/Weapons/Guns/Projectiles/projectiles.rsi
-      state: beam
+      sprite: _DV/Objects/Weapons/Guns/Projectiles/unstable_rad_projectile.rsi
+      state: unstable_beam
     impactFlash:
-      sprite: _DV/Objects/Weapons/Guns/Projectiles/projectiles.rsi
-      state: impact_laser
+      sprite: _DV/Objects/Weapons/Guns/Projectiles/unstable_rad_projectile.rsi
+      state: unstable_impact
   - type: HitscanBasicDamage
     damage:
       types:
-        Radiation: 5
-        Caustic: 3
+        Heat: 1
+        Radiation: 4
   - type: HitscanTemperature
     heatChange: 11000

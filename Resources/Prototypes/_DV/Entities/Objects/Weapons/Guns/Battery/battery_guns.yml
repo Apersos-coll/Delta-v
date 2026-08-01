@@ -728,16 +728,18 @@
     selectedMode: FullAuto
     fireRate: 20
     availableModes: FullAuto
-    minAngle: 18
-    maxAngle: 25
+    minAngle: 1
+    maxAngle: 45
+    angleIncrease: -1
+    angleDecay: -3
   - type: Battery
-    maxCharge: 660
-    startingCharge: 660
+    maxCharge: 12000
+    startingCharge: 12000
   - type: BatterySelfRecharger
-    autoRechargeRate: 100
+    autoRechargeRate: 900
   - type: BatteryAmmoProvider
     proto: FocussedCoreExhaust
-    fireCost: 30
+    fireCost: 200
   - type: MagazineVisuals
     magState: mag
     steps: 5
